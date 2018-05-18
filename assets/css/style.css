@@ -1,0 +1,57 @@
+body {
+    background: url("../images/pink_rice.png")
+}
+
+.mainHeader {
+    margin-top: 20px;
+    background: url("../images/white_wall.png");
+    text-align: center;
+    color: black;
+    border: 3px double black;
+}
+
+img {
+    width: 70px;
+    height: 70px;
+    margin-bottom: 20px;
+    margin-right: 25px;
+
+}
+
+#psychicGameTitle {
+    padding-top: 10px;
+    font-size: 55px;
+    font-family: 'Luckiest Guy', cursive;
+}
+
+#guesWhatWordTitle {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+
+.mainContent {
+    font-family: 'Raleway', sans-serif;
+    background: url("../images/white_wall.png");
+    margin-top: 40px;
+    font-size: 20px;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    border: 3px double black;
+}
+
+.spacesForWord {
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+
+.score {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}

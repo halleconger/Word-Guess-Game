@@ -5,31 +5,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title> Word Guess Game </title>
+    <title> Candy Hangman </title>
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy|Raleway" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
 </head>
 
 <body>
     <!-- What appears on HTML page in writing with their given ID -->
-    <div class="maincontent">
-        <p id="psychicgametitle"> Hangman: Word Guess Game </p>
-        <p id="guesswhatwordtitle">Guess What Word I Am Thinking Of...</p>
+    <div class="container">
+        <div class="mainHeader">
+            <p id="psychicGameTitle"> Candy Hangman </p>
+            <img src="./assets/images/anise-candy.png" alt="Candy Piece">
+            <img src="./assets/images/chocolate-bar.png" alt="Chocolate Bar">
+            <img src="./assets/images/gummy-bear.png" alt="Gummy Bear">
+            <img src="./assets/images/mint-ball.png" alt="Mint">
+            <p id="guesWhatWordTitle">Guess What Candy I Am Thinking Of...</p>
+        </div>
 
-        <p>
-            <span id="blankSpaces"></span>
-        </p>
-        <p> Wins:
-            <span id="wins"></span>
-        </p>
-        <p> Losses:
-            <span id="losses"></span>
-        </p>
-        <p> Number of Guesses Remaining:
-            <span id="guessesLeft"></span>
-        </p>
-        <p> Letters Already Guessed:
-            <span id="guessesMade"></span>
-        </p>
+        <div class="mainContent">
+            <p class="spacesForWord">
+                <span id="blankSpaces"></span>
+            </p>
+            <p class="score"> Wins:
+                <span id="wins"></span>
+            </p>
+            <p class="score"> Losses:
+                <span id="losses"></span>
+            </p>
+            <p> Number of Guesses Remaining:
+                <span id="guessesLeft"></span>
+            </p>
+            <p> Letters Already Guessed:
+                <span id="guessesMade"></span>
+            </p>
+        </div>
     </div>
 
     <script src="./assets/javascript/game.js"></script>
